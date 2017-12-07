@@ -37,7 +37,7 @@ const App = () => {
 											<span className="icon-bar" />
 											<span className="icon-bar" />
 										</button>
-										<NavLink to={'/Home'}><img className="img responsive imglogo" src={estherlogo} /></NavLink>
+										{/* <NavLink to={'/Home'}><img className="img responsive imglogo" src={estherlogo} /></NavLink> */}
 									</div>
 									<div
 										className="navbar-collapse collapse"
