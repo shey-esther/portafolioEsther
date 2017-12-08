@@ -84,8 +84,8 @@ const Habilidades = () => {
             <p className="curso">JQUERY</p>
             <div className="ch-info-back me-escondo1">
               <h3>JQUERY</h3>
-              <p>Es una librería de JavaScript que simplifica la tarea de programar en JavaScript y permite agregar interactividad a un sitio web.</p>
-            </div>
+              <p>Librería que simplifica la tarea de programar en JavaScript y permite agregar interactividad a un sitio web.</p>
+              </div>
           </div>
           <div className="col-md-12 col-sm-6 col-md-3 escondite1 animated fadeInUp ">
             <i class="devicon-github-plain jqicon"></i>

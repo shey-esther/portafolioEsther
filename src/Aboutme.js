@@ -23,7 +23,7 @@ class Aboutme extends Component {
 						<strong> <h3 className='text animated swing'>
 							Acerca de Mi</h3></strong>
 						<p className=" ">
-							'Hola soy Esther Alvaro Cruz desarrolladora Front-End, de la cuarta generación de Laboratoria-Arequipa me considero una persona responsable y flexible, me gusta trabajar en equipo, en mis tiempos libres escucho música y sobretodo hacer deporte, mis deseos en el futuro es seguir especializándome y crecer en lo profesional y como persona .</p>
+							Hola soy Esther Alvaro Cruz desarrolladora Front-End, de la cuarta generación de Laboratoria-Arequipa me considero una persona responsable y flexible, me gusta trabajar en equipo, en mis tiempos libres escucho música y sobretodo hacer deporte, mis deseos en el futuro es seguir especializándome y crecer en lo profesional y como persona .</p>
 						<div >
 							<div className="row">
 							<h4 className='interes'>Mis Intereses</h4>

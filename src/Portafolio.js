@@ -12,7 +12,7 @@ import youtuve from './img/youtuve.jpg';
 import plane from './img/plane.png';
 import bomba from './img/bomba.png';
 import recor from './img/recor.jpg';
-import teacher from './img/teacher.png';
+import trello from './img/trello.jpg';
 import register from './img/register.jpg';
 import agree from './img/agree.png';
 
@@ -42,7 +42,7 @@ const HTML = () => {
 
               <div className="info img-responsive me-escondo ">
                 <h4 className="texcategoria">
-                  The website can log in to the user and also find the album you want. Through the microphone or writing. Fb API and Spotify API</h4>
+                Esta pagina es un juego, tiene la funcionalidad de direccionarse a cualquier de sus lados</h4>
                 <p className="">
                   <a href="https://github.com/shey-esther/Laberinto"
                   target="_blank"
@@ -83,7 +83,7 @@ const HTML = () => {
                 src={pandita} />
               <div className="info img-responsive me-escondo ">
                 <p className="texcategoria">
-                  Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                   </p>
+                  Esta página es para dispositivos móviles </p>
                 <p >
                   <a href="https://github.com/shey-esther/love-panda"
                   target="_blank"
@@ -100,77 +100,7 @@ const HTML = () => {
     </div>
   );
 }
-const CSS = () => {
-  return (
-    <div className="row contfull text-center">
-      <div className="col-md-12 text-center">
-        <div
-          className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
-          style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block stile escondite">
 
-            <img className="img responsive"
-              src={naranja} />
-            <div className="info img-responsive me-escondo ">
-              <p className="texcategoria">
-                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
-              <p >
-                <a href="https://github.com/shey-esther/Lya-movil-evaluado"
-                target="_blank"
-                  className="btn btn-default codigo">Github</a>
-                <a href='https://shey-esther.github.io/Lya-movil-evaluado/'
-                target="_blank"
-                  className="btn btn-default codigo">Proyecto</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
-          style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block stile escondite">
-            <img
-              className="img responsive"
-              src={fotologo} />
-            <div className="info img-responsive me-escondo ">
-              <p className="texcategoria">
-                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
-              <p >
-                <a href="https://github.com/shey-esther/Lya-movil-evaluado"
-                target="_blank"
-                  className="btn btn-default codigo">Github</a>
-                <a href='https://shey-esther.github.io/Lya-movil-evaluado/'
-                target="_blank"
-                  className="btn btn-default codigo">Proyecto</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          className="col-xs-12 col-sm-6 col-md-4 proyects-container filter jquery wow flipInX"
-          style={{ visibility: 'visible', animationName: 'flipInX', display: 'block' }}>
-          <div className="image-container center-block stile escondite">
-            <img
-              className="img responsive"
-              src={youtuve} />
-            <div className="info img-responsive me-escondo ">
-              <p className="texcategoria">
-                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
-              <p >
-                <a href="https://github.com/shey-esther/youtuve"
-                target="_blank"
-                  className="btn btn-default codigo">Github</a>
-                <a href="https://shey-esther.github.io/youtuve/"
-                target="_blank"
-                  className="btn btn-default codigo">Proyecto</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
 const Jquery = () => {
   return (
     <div className="row contfull text-center">
@@ -185,7 +115,7 @@ const Jquery = () => {
               src={plane} />
             <div className="info img-responsive me-escondo ">
               <p className="texcategoria">
-                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+                Esta página es para dispositivos móviles,es un quiz que tiene preguntas como respuestas para seleccionarlas  </p>
               <p >
                 <a href="https://github.com/shey-esther/Deep-dive-evaluado"
                 target="_blank"
@@ -206,7 +136,7 @@ const Jquery = () => {
               src={bomba} />
             <div className="info img-responsive me-escondo ">
               <p className="texcategoria">
-                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+                Esta página es un juego puzzle Buscaminas que es muy bueno para el entretenimiento</p>
               <p >
                 <a href="https://github.com/shey-esther/Buscaminas"
                 target="_blank"
@@ -227,7 +157,7 @@ const Jquery = () => {
               src={recor} />
             <div className="info img-responsive me-escondo ">
               <p className="texcategoria">
-                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+                Esta página tiene la funcionalidad para registrar al usuario y el porcentaje academico </p>
               <p >
                 <a href="https://github.com/shey-esther/student-records"
                 target="_blank"
@@ -254,18 +184,17 @@ const react = () => {
           <div className="image-container center-block escondite">
             <img
               className="img responsive"
-              src={teacher} />
+              src={trello} />
             <div className="info img-responsive me-escondo ">
               <p className="texcategoria">
-                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
-              <p >
-                <a href="https://github.com/shey-esther/react-routing"
+                Es una pagina web donde podras agregar mas tareas que vas a realizar</p>
+              
+                <a href="https://github.com/shey-esther/trello-firebase"
                 target="_blank"
                   className="btn btn-default codigo">Github</a>
-                <a href='https://shey-esther.github.io/react-routing/'
+                <a href='https://shey-esther.github.io/trello-firebase/'
                 target="_blank"
                   className="btn btn-default codigo">Proyecto</a>
-              </p>
             </div>
           </div>
         </div>
@@ -279,7 +208,7 @@ const react = () => {
               src={register} />
             <div className="info img-responsive me-escondo ">
               <p className="texcategoria">
-                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+                Esta página que tiene la funcionalidad de registrar al usuario y su comentario</p>
               <p >
                 <a href="https://github.com/shey-esther/resgistration-app-mvc-react"
                 target="_blank"
@@ -300,7 +229,7 @@ const react = () => {
               src={agree} />
             <div className="info img-responsive me-escondo ">
               <p className="texcategoria">
-                Esta página es para dispositivos móviles, tiene la funcionalidad para registrar al usuario y ubicar su dirección.                 </p>
+                Esta página es que permite agregar mas usuarios  </p>
               <p >
                 <a href="https://github.com/shey-esther/scoreboard-timer"
                 target="_blank"
@@ -344,10 +273,7 @@ const Portafolio = () => {
                   data-filter="react">react</NavLink>
                 <NavLink to="/HTML"
                   className="btnp btn "
-                  data-filter="all">JavaScript</NavLink>
-                <NavLink to="/CSS"
-                  className="btnp btn "
-                  data-filter="Css">html/Css</NavLink>
+                  data-filter="all">Html/css/Js</NavLink>
               </div>
             </section>
           </div>

@@ -12,7 +12,6 @@ const Contactame = () => {
 	return (
 		<div>
 			<section className="contacto-content">
-			{/* <img className='imgpng' src={lampara} /> */}
 				<div className="text-center title-section animated swing">Contacto</div>
 				<div className="container leterspac">
 					<div className="row text-center">
@@ -27,10 +26,9 @@ const Contactame = () => {
 						</div>
 						<div className="col-md-4 col-xs-12 contact-cols">
 							<h4 className="raleway m-2">
-								{/* <strong>REDES SOCIALES</strong> */}
 							</h4>
 							<a target="_blank"
-								href="https://shey-esther@github.com">
+								href="https://twitter.com/EstherAlvaroCr1">
 								<i class="fa fa-twitter" aria-hidden="true"></i>
 							</a>
 							<a target="_blank"
@@ -41,14 +39,14 @@ const Contactame = () => {
 								href="https://www.linkedin.com/in/esther-alvaro456">
 								<i class="fa fa-linkedin" aria-hidden="true"></i>
 							</a>
-							<a target="_blank"
+							{/* <a target="_blank"
 								href="https://www.linkedin.com/in/esther-alvaro456">
 								<i class="fa fa-behance" aria-hidden="true"></i>
 							</a>
 							<a target="_blank"
 								href="https://www.linkedin.com/in/esther-alvaro456">
 								<i class="fa fa-instagram" aria-hidden="true"></i>
-							</a>
+							</a> */}
 						</div>
 						<div className="col-md-4 col-xs-12 contact-cols">
 							<p className="p-descarga">
